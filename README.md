@@ -24,6 +24,7 @@ Originally made and released (open alpha) in December 2014 by kerbal forum user 
 * Community Resource Pack
 
 ### Integrations
+* B9 Animation Modules
 * WBI Classic Stock
 
 ### Issues
