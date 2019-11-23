@@ -1,8 +1,9 @@
 # KipardSkylon
 Revived Skylon replica mod for today's KSP.  
-Originally made and released (open alpha) in December 2014 by kerbal forum user **CaptainKipard** who last appeared mid-2016.
 ![Skylon](https://i.imgur.com/x4A0Qq8.jpg)
 
+
+Originally made and released (open alpha) in December 2014 by kerbal forum user **CaptainKipard** who last appeared mid-2016.
 ## Main Features
 * 5m diameter at the midsection. Its Payload Bay comfortably holds 2.5m or tightly holds 3.75m.
 * Runs on Hydrolox (not LFO) by default: SABRE, OMS/tail engine, Payload Bay's builtin fuel cell and RCS.
@@ -24,3 +25,6 @@ Originally made and released (open alpha) in December 2014 by kerbal forum user 
 
 ### Integrations
 * WBI Classic Stock
+
+### Issues
+Some lasting issues that I've discovered in the process of this takeover include: A drag cube problem with the largest tank pieces.I am not sure if they can be properly fixed. Until then these tanks had an extra stack node added to them and must receive a 3.75m nose cone there. Feel free to hide (but do not scale down) the cones afterward; The pre-made wheels run on Firespitter but misbehave even with the current version of Firespitter (as at KSP 1.8.1). While these remain unusuable I have supplied customized stock wheels to use in their place.
