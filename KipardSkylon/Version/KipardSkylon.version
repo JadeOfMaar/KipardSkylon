@@ -1,0 +1,25 @@
+{
+	"NAME":"Kipard Skylon",
+	"DOWNLOAD":"https://github.com/JadeOfMaar/KipardSkylon/releases",
+	"URL":"https://github.com/JadeOfMaar/KipardSkylon/tree/master/GameData/KipardSkylon/Version/KipardSkylon.version",
+	"CHANGE_LOG_URL":"https://github.com/JadeOfMaar/KipardSkylon/tree/master/GameData/KipardSkylon/Version/Changelog.txt",
+	"GITHUB":
+	{
+		"USERNAME":"JadeOfMaar",
+		"REPOSITORY":"https://github.com/JadeOfMaar/KipardSkylon",
+		"ALLOW_PRE_RELEASE":true,
+	},
+	"VERSION":
+	{
+		"MAJOR":0,
+		"MINOR":9,
+		"PATCH":0,
+		"BUILD":0
+	},
+	"KSP_VERSION":
+	{
+		"MAJOR":1,
+		"MINOR":8,
+		"PATCH":1
+	},
+}

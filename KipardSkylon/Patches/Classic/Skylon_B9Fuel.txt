@@ -1,0 +1,86 @@
+@PART[KipEngSkylonNoseAUX|KipEngSkylonTailAUX|KipEngSkylonNoseFuel|KipEngSkylonTailFuel|KipEngSkylonPayloadBay]:NEEDS[B9PartSwitch]
+{
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = SkylonFuel
+		switcherDescription = Skylon Fuel
+		switchInFlight = True
+		baseVolume = #$../refVolume$
+		SUBTYPE
+		{
+			name = LFO
+			tankType = LFO
+			title = LF + Ox
+		}
+		SUBTYPE
+		{
+			name = LF
+			tankType = LiquidFuel
+			title = LiquidFuel
+		}
+		SUBTYPE
+		{
+			name = OX
+			tankType = OX
+			title = Oxidizer
+		}
+		SUBTYPE
+		{
+			name = MO
+			tankType = MonoPropellant
+			title = MonoPropellant
+		}
+		SUBTYPE
+		{
+			name = Structural
+			title = Structural
+		}
+		SUBTYPE
+		{
+			name = Propellium
+			tankType = RR_PLM
+			title = Propellium
+			primaryColor = Lightblue
+			secondaryColor = Lightblue
+		}
+		SUBTYPE
+		{
+			name = PropLox
+			tankType = RR_PLOX
+			title = PropLox
+			primaryColor = Lightblue
+			secondaryColor = ResourceColorOxidizer
+		}
+	}
+}
+
+B9_TANK_TYPE:NEEDS[B9PartSwitch,!RationalResources]
+{
+	name = RR_PLM
+	tankMass = 0.00007085
+	tankCost = 0.15
+	percentFilled = 100
+	RESOURCE
+	{
+		name = Propellium
+		unitsPerVolume = 15
+	}
+}
+B9_TANK_TYPE:NEEDS[B9PartSwitch,!RationalResources]
+{
+	name = RR_PLOX
+	tankMass = 0.00007085
+	tankCost = 0.15
+	percentFilled = 100
+	RESOURCE
+	{
+		name = Propellium
+		unitsPerVolume = 7.5
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		unitsPerVolume = 0.5
+	}
+}

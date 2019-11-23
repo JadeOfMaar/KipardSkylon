@@ -1,0 +1,53 @@
+@PART[KipEngSkylonSabreEngine|KipEngSkylonOrbitalEngine]
+{
+	@MODULE[ModuleEnginesFX],*
+	{
+		@PROPELLANT[LqdHydrogen]
+		{
+			@name = Propellium
+		}
+	}
+}
+@PART[KipEngSkylonIntake]
+{
+	@MODULE[ModuleResourceIntake]:HAS[#ResourceName[LqdOxygen]]
+	{
+		@ResourceName = Oxium
+	}
+	@RESOURCE[LqdOxygen]
+	{
+		@name = Oxium
+	}
+}
+@PART[KipEngSkylonPrecooler]
+{
+	@MODULE[ModuleResourceConverter]
+	{
+		@INPUT_RESOURCE:HAS[#ResourceName[LqdOxygen]]
+		{
+			@ResourceName = Oxium
+		}
+	}
+	@RESOURCE[LqdOxygen]
+	{
+		@name = Oxium
+	}
+}
+@PART[KipEngSkylonPayloadBay]
+{
+	@MODULE[ModuleRCSFX]
+	{
+		@resourceName = Propellium
+		@PROPELLANT[LqdHydrogen]
+		{
+			@name = Propellium
+		}
+	}
+	@MODULE[ModuleResourceConverter]
+	{
+		@INPUT_RESOURCE:HAS[#ResourceName[LqdOxygen]]
+		{
+			@ResourceName = Oxium
+		}
+	}
+}
