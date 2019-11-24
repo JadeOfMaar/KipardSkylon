@@ -18,6 +18,7 @@ Originally made and released (open alpha) in December 2014 by kerbal forum user 
 * Added custom cargo bay for use as a service bay. Can comfortably hold 3.75m and can provide a wide selection of inner node clusters for mounting useful 1.25m things.
 * Can sweat Liquid Hydrogen for thermal control/transpiration.
 * Includes reconfigured, recolored stock wheels to fit its profile.
+* Variant themes: Black & White, All Black.
 
 ### Dependencies
 * B9 Part Switch
