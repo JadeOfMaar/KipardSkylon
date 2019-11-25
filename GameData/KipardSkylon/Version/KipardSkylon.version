@@ -2,7 +2,7 @@
 	"NAME":"Kipard Skylon",
 	"DOWNLOAD":"https://github.com/JadeOfMaar/KipardSkylon/releases",
 	"URL":"https://github.com/JadeOfMaar/KipardSkylon/tree/master/GameData/KipardSkylon/Version/KipardSkylon.version",
-	"CHANGE_LOG_URL":"https://github.com/JadeOfMaar/KipardSkylon/tree/master/GameData/KipardSkylon/Version/Changelog.txt",
+	"CHANGE_LOG_URL":"https://raw.githubusercontent.com/JadeOfMaar/KipardSkylon/master/GameData/KipardSkylon/Version/Changelog.txt",
 	"GITHUB":
 	{
 		"USERNAME":"JadeOfMaar",
