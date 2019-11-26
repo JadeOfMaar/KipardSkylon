@@ -10,14 +10,15 @@ Originally made and released (open alpha) in December 2014 by kerbal forum user 
 * Balanced for 2.7x ~ 3.2x scaled systems. Rated for 30 tons to 600km in 2.7x with its own bay.
 * Drone core contains 4 control points: Forward, Up (Docking), SABRE thrust vector, OMS thrust vector.
 * Precoolers each create up to 200 Oxidizer per second between Mach 1.2 ~ 6.
-* Shock cones animate if **B9AnimationModules** mod is installed. (It is bundled.)
+* Shock cones animate if **B9AnimationModules** mod is installed.
 * SABRE (as per true turborocket nature) sips on Oxidizer in air-breating mode which explains its enduring power in higher atmosphere than most other jet engines.
 * Aerodynamics stats thoroughly tested but there's always the inherent issue of the center of lift being under the center of mass due to the wing placement.
 
 ## Bonus Features
 * Added custom cargo bay for use as a service bay. Can comfortably hold 3.75m and can provide a wide selection of inner node clusters for mounting useful 1.25m things.
-* Can sweat Liquid Hydrogen for thermal control/transpiration.
+* Can sweat Liquid Hydrogen for thermal control/transpiration. (This might not actually be needed.)
 * Includes reconfigured, recolored stock wheels to fit its profile.
+* Includes some part upgrades.
 * Variant themes: Black & White, All Black.
 ![Skylon Light vs Dark SPH](https://i.imgur.com/4Ohjqab.jpg)
 
@@ -26,7 +27,7 @@ Originally made and released (open alpha) in December 2014 by kerbal forum user 
 * Community Resource Pack
 
 ### Integrations
-* B9 Animation Modules
+* B9 Animation Modules (bundled)
 * WBI Classic Stock
 
 ### Issues
