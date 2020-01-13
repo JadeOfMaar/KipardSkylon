@@ -1,60 +1,3 @@
-@PART[KipEngSkylonNoseAUX|KipEngSkylonTailAUX|KipEngSkylonNoseFuel|KipEngSkylonTailFuel|KipEngSkylonPayloadBay]:NEEDS[B9PartSwitch]
-{
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		moduleID = SkylonFuel
-		switcherDescription = Skylon Fuel
-		switchInFlight = True
-		baseVolume = #$../refVolume$
-		SUBTYPE
-		{
-			name = LFO
-			tankType = LFO
-			title = LF + Ox
-		}
-		SUBTYPE
-		{
-			name = LF
-			tankType = LiquidFuel
-			title = LiquidFuel
-		}
-		SUBTYPE
-		{
-			name = OX
-			tankType = OX
-			title = Oxidizer
-		}
-		SUBTYPE
-		{
-			name = MO
-			tankType = MonoPropellant
-			title = MonoPropellant
-		}
-		SUBTYPE
-		{
-			name = Structural
-			title = Structural
-		}
-		SUBTYPE
-		{
-			name = Propellium
-			tankType = RR_PLM
-			title = Propellium
-			primaryColor = Lightblue
-			secondaryColor = Lightblue
-		}
-		SUBTYPE
-		{
-			name = PropLox
-			tankType = RR_PLOX
-			title = PropLox
-			primaryColor = Lightblue
-			secondaryColor = ResourceColorOxidizer
-		}
-	}
-}
-
 B9_TANK_TYPE:NEEDS[B9PartSwitch,!RationalResources]
 {
 	name = RR_PLM
@@ -82,5 +25,55 @@ B9_TANK_TYPE:NEEDS[B9PartSwitch,!RationalResources]
 	{
 		name = Oxidizer
 		unitsPerVolume = 0.5
+	}
+}
+B9_TANK_TYPE:NEEDS[B9PartSwitch]
+{
+	name = Skylon_OX
+	tankMass = 0
+	tankCost = 0
+	RESOURCE
+	{
+		name = Oxidizer
+		unitsPerVolume = 1
+	}
+}
+
+@PART[KipEngSkylonNoseAUX|KipEngSkylonTailAUX|KipEngSkylonNoseFuel|KipEngSkylonTailFuel|KipEngSkylonPayloadBay]:NEEDS[B9PartSwitch]
+{
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = SkylonFuel
+		switcherDescription = Skylon Fuel
+		switchInFlight = True
+		baseVolume = #$../refVolume$
+		SUBTYPE
+		{
+			name = Propellium
+			tankType = RR_PLM
+			title = Propellium
+			primaryColor = Lightblue
+			secondaryColor = Lightblue
+		}
+		SUBTYPE
+		{
+			name = PropLox
+			tankType = RR_PLOX
+			title = PropLox
+			primaryColor = Lightblue
+			secondaryColor = ResourceColorOxidizer
+		}
+		SUBTYPE
+		{
+			name = OX
+			tankType = Skylon_OX
+			title = Oxidizer
+		}
+		SUBTYPE
+		{
+			name = Structural
+			title = Structural
+		}
 	}
 }

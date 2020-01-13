@@ -1,4 +1,5 @@
 # KipardSkylon
+### License: CC-BY-NC-SA
 Revived Skylon replica mod for today's KSP.  
 ![Skylon](https://i.imgur.com/x4A0Qq8.jpg)
 
@@ -27,7 +28,7 @@ Originally made and released (open alpha) in December 2014 by kerbal forum user 
 * Community Resource Pack
 
 ### Integrations
-* B9 Animation Modules (bundled)
+* [B9 Animation Modules](https://github.com/blowfishpro/B9AnimationModules/releases) (bundled)
 * WBI Classic Stock
 
 ### Issues
