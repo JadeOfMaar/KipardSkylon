@@ -1,10 +1,12 @@
 # KipardSkylon
 ### License: CC-BY-NC-SA
-Revived Skylon replica mod for today's KSP.  
+Revived Skylon replica mod for today's KSP.
+
 ![Skylon](https://i.imgur.com/x4A0Qq8.jpg)
 
 
-Originally made and released (open alpha) in December 2014 by kerbal forum user **CaptainKipard** who last appeared mid-2016.
+Originally made and released (open alpha) in December 2014 by kerbal forum user **CaptainKipard** who last appeared mid-2016. [Original thread](https://forum.kerbalspaceprogram.com/index.php?/topic/45790-*/).
+
 ## Main Features
 * 5m diameter at the midsection. 3.75m engines. Its Payload Bay comfortably holds 2.5m or tightly holds 3.75m.
 * Runs on Hydrolox (not LFO) by default: SABRE, OMS/tail engine, Payload Bay's builtin fuel cell and RCS.
@@ -24,12 +26,12 @@ Originally made and released (open alpha) in December 2014 by kerbal forum user 
 ![Skylon Light vs Dark SPH](https://i.imgur.com/4Ohjqab.jpg)
 
 ### Dependencies
-* B9 Part Switch
-* Community Resource Pack
+* [B9 Part Switch](https://github.com/blowfishpro/B9PartSwitch/releases)
+* [Community Resource Pack](https://spacedock.info/mod/31/Community%20Resource%20Pack)
 
 ### Integrations
 * [B9 Animation Modules](https://github.com/blowfishpro/B9AnimationModules/releases) (bundled)
-* WBI Classic Stock
+* [WBI Classic Stock](https://github.com/Angel-125/WildBlueTools/releases)
 
 ### Issues
 Some lasting issues that I've discovered in the process of this takeover include: 
