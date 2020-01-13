@@ -77,3 +77,29 @@ B9_TANK_TYPE:NEEDS[B9PartSwitch]
 		}
 	}
 }
+
+@PART[KipEngSkylonIntake]
+{
+	@MODULE[ModuleResourceIntake]:HAS[#resourceName[LqdOxygen]]
+	{
+		@resourceName = Oxium
+	}
+	@RESOURCE[LqdOxygen]
+	{
+		@name = Oxium
+	}
+}
+@PART[KipEngSkylonPrecooler]
+{
+	@MODULE[ModuleResourceConverter]
+	{
+		@INPUT_RESOURCE:HAS[#resourceName[LqdOxygen]]
+		{
+			@ResourceName = Oxium
+		}
+	}
+	@RESOURCE[LqdOxygen]
+	{
+		@name = Oxium
+	}
+}
