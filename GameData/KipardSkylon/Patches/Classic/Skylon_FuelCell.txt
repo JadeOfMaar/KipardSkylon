@@ -1,0 +1,23 @@
+@PART[KipEngSkylonPayloadBay]
+{
+	@MODULE[ModuleResourceConverter]
+	{
+		@INPUT_RESOURCE:HAS[#ResourceName[LqdHydrogen]]
+		{
+			@ResourceName = Propellium
+			@Ratio = 0.495
+		}
+		@INPUT_RESOURCE:HAS[#ResourceName[Oxidizer]]
+		{
+			@Ratio = 0.0165
+		}
+		@OUTPUT_RESOURCE:HAS[#ResourceName[ElectricCharge]]
+		{
+			@Ratio = 12
+		}
+		@OUTPUT_RESOURCE:HAS[#ResourceName[Water]]
+		{
+			@Ratio = 0.00928065
+		}
+	}
+}

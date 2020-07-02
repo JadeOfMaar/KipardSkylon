@@ -5,6 +5,11 @@
 		@PROPELLANT[LqdHydrogen]
 		{
 			@name = Propellium
+			@ratio = 3
+		}
+		@PROPELLANT[Oxidizer]
+		{
+			@ratio = 1
 		}
 	}
 }
@@ -41,6 +46,11 @@
 		@PROPELLANT[LqdHydrogen]
 		{
 			@name = Propellium
+			@ratio = 3
+		}
+		@PROPELLANT[Oxidizer]
+		{
+			@ratio = 1
 		}
 	}
 	@MODULE[ModuleResourceConverter]
