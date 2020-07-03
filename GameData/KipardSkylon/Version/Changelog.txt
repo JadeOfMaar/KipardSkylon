@@ -1,3 +1,16 @@
+1.3.0 * 2020-07-02
+- - - -  - - - -  - - - -  - - - - 
+
+* Added boiloff module for CryoTanks users.
+* Added JetSoundsUpdated patch.
+* Buffed fuel cell in accordance with boiloff module demands.
+  * Added Water output to fuel cell.
+* Fixed drag cube problem with auxiliary bay.
+* Reduced canard deflection in accordance to FAR issues.
+* Updated Classic Stock integration accordingly.
+* Updated PARTUPGRADES to WIP Upgrade Party style.
+
+
 1.2.0 * 2020-05-27
 - - - -  - - - -  - - - -  - - - - 
 
